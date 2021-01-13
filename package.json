@@ -14,6 +14,8 @@
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\"",
     "lint:fix": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "contributors:add": "cross-env HUSKY_SKIP_HOOKS=1 all-contributors add",
+    "contributors:generate": "cross-env HUSKY_SKIP_HOOKS=1 all-contributors generate",
     "semantic-release": "semantic-release"
   },
   "author": "thatkookooguy <neilkalman@gmail.com>",
@@ -26,6 +28,7 @@
     "@typescript-eslint/parser": "^4.13.0",
     "all-contributors-cli": "^6.19.0",
     "commitizen": "^4.2.2",
+    "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.17.0",
     "husky": "^4.3.7",
