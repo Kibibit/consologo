@@ -1,9 +1,9 @@
 {
-  "name": "@kibibit/kb-plex-api-client",
+  "name": "@kibibit/consologo",
   "version": "0.0.0-development",
-  "description": "plex.tv api client for node.js & browser using axios",
-  "types": "lib/kb-plex-api-client.d.ts",
-  "main": "lib/kb-plex-api-client.js",
+  "description": "Show a kibibit app name and info in the console.log",
+  "types": "lib/consologo.d.ts",
+  "main": "lib/consologo.js",
   "files": [
     "/lib"
   ],
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kibibit/kb-plex-api-client.git"
+    "url": "https://github.com/Kibibit/consologo.git"
   },
   "dependencies": {
     "axios": "^0.21.1"
