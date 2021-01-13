@@ -1,4 +1,4 @@
-export function consoleLogo(productName: string, applicationInfo: string | string[]) {
+export function webConsolelogo(productName: string, applicationInfo?: string | string[]) {
   const subStyle = `
 padding: .1em 0;
 color: rgb(98, 98, 108);

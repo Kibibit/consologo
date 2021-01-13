@@ -2,14 +2,14 @@
   "name": "@kibibit/consologo",
   "version": "0.0.0-development",
   "description": "Show a kibibit app name and info in the console.log",
-  "types": "lib/consologo.d.ts",
-  "main": "lib/consologo.js",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
   "files": [
     "/lib"
   ],
   "scripts": {
     "build": "tsc",
-    "generate-barrels": "barrelsby --delete -d ./src -l below -q",
+    "generate-barrels": "barrelsby --delete -d ./src -q",
     "semantic-release:setup": "semantic-release-cli setup",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\"",
     "lint:fix": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
@@ -42,7 +42,9 @@
     "url": "https://github.com/Kibibit/consologo.git"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "@kibibit/kb-error": "^1.0.3",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0"
   },
   "config": {
     "commitizen": {
