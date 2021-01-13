@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://github.com/Kibibit/kb-steam-card/" target="blank"><img src="http://kibibit.io/kibibit-assets/consologo.png" width="150" alt="achievibit Logo" />
+  <a href="https://github.com/Kibibit/consologo/" target="blank"><img src="http://kibibit.io/kibibit-assets/consologo.png" width="150" alt="achievibit Logo" />
   </a>
   <h2 align="center">
     @kibibit/consologo
   </h2>
 </p>
 <p align="center">
-  <a href="https://www.npmjs.com/package/@kibibit/kb-steam-card"><img src="https://img.shields.io/npm/v/@kibibit/consologo/latest.svg?style=for-the-badge&logo=npm&color=CB3837"></a>
+  <a href="https://www.npmjs.com/package/@kibibit/consologo"><img src="https://img.shields.io/npm/v/@kibibit/consologo/latest.svg?style=for-the-badge&logo=npm&color=CB3837"></a>
 </p>
 <p align="center">
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
