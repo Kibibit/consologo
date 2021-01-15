@@ -10,7 +10,7 @@ font-weight: bold;
 color: transparent;
 display: inline-block;
 background-color: transparent;
-background-image: url('http://kibibit.io/kibibit-assets/1x/long-white.png');
+background-image: url('//kibibit.io/kibibit-assets/1x/long-white.png');
 background-size: cover;
 padding: 0 ${50 * 3.6}px 50px 0;
 border: none;
