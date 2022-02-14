@@ -11,7 +11,7 @@ color: transparent;
 display: inline-block;
 background-color: transparent;
 background-image: url('${ logoUrl || 'http://kibibit.io/kibibit-assets/1x/long-white.png' }');
-background-size: cover;
+background-size: contain;
 padding: 0 ${50 * 3.6}px 50px 0;
 border: none;
 font-size: 11px;
